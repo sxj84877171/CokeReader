@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+
+    <TableRow >
+
+        <TextView android:textColor="#000000"
+            android:id="@+id/data1"
+            android:layout_width="140dip"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+
+        <TextView android:textColor="#000000"
+            android:id="@+id/data2"
+            android:layout_width="140dip"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <TextView android:textColor="#000000"
+            android:id="@+id/data3"
+            android:layout_width="220dip"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <TextView android:textColor="#000000"
+            android:id="@+id/data4"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:visibility="gone" />
+    </TableRow>
+
+</TableLayout>

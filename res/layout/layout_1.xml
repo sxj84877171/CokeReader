@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="30dip"
+    android:layout_marginRight="30dip"
+    android:layout_marginTop="30dip"
+    android:visibility="gone" >
+
+    <Button 
+        android:id="@+id/device_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/device_info"
+        android:layout_marginRight="30dip"
+        android:text="@string/device_connect" />
+
+    <Button 
+        android:enabled="false"
+        android:id="@+id/device_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" 
+        android:text="@string/device_info" />
+
+    <Button 
+         android:enabled="false"
+        android:id="@+id/device_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dip"
+        android:layout_toRightOf="@+id/device_info"
+        android:text="@string/sync_time" />
+
+    <TableLayout
+        android:id="@+id/tablayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/device_connect"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="30dip"
+        android:shrinkColumns="1" >
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="middle"
+                android:gravity="right" 
+                android:text="@string/username"
+                android:textSize="20dp" 
+                android:textColor="#000000"/>
+			<LinearLayout  
+                android:gravity="center_vertical"
+			    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textbg"
+                android:layout_weight="3" >
+             <TextView android:layout_width="7dip"
+                android:layout_height="wrap_content"></TextView>
+            <TextView android:focusable="false"
+                android:id="@+id/username" 
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                 />
+			</LinearLayout>
+            <Button 
+                android:id="@+id/chanageUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_weight="1"
+                android:text="@string/chanage_username" 
+                />
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="middle"
+                android:gravity="right"
+                android:text="@string/password"
+                android:textSize="20dp" 
+                android:textColor="#000000"
+                />
+
+            <TextView android:focusable="false"
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:editable="false" 
+                android:password="false" 
+                android:textColor="#000000"
+                android:gravity="center_vertical"
+                android:background="@drawable/textbg"
+                />
+
+            <Button 
+                android:id="@+id/chanagerPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dip"
+                android:text="@string/chanage_password" />
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tablayout1"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="20dip" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/info1"
+            android:shrinkColumns="0" >
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

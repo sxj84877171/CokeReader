@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">可口可乐读卡器</string>
+    <string name="device_connect">设备连接</string>
+    <string name="device_info">设备信息</string>
+    <string name="sync_time">同步时间</string>
+    <string name="username">用户名:</string>
+    <string name="password">密码:</string>
+    <string name="old_password">原密码:</string>
+    <string name="new_password">新密码:</string>
+    <string name="re_password">再输入一次:</string>
+    <string name="chanage_username">改名称</string>
+    <string name="chanage_password">改密码</string>
+    <string name="deivece_manager">设备管理</string>
+    <string name="tag_read">标签读取</string>
+    <string name="data_select">数据查询</string>
+    <string name="read_start">开始读取</string>
+    <string name="read_end">停止读取</string>
+    <string name="pick_record">提取记录</string>
+    <string name="export_record">导出记录</string>
+    <string name="to">至</string>
+    <string name="empty_data">清空</string>
+    <string name="select">查询</string>
+    <string name="choose_date">选择日期</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="update_info">修改个人信息</string>
+    <string name="old_error">原密码输入错误！</string>
+    <string name="re_error">两次输入密码不一致！</string>
+    <string name="empty_password">密码位数过短，至少输入6位</string>
+    <string name="card_no">卡号</string>
+    <string name="card_id">ID</string>
+    <string name="card_time">时间</string>
+    <string name="device_s_n">S/N号码</string>
+    <string name="bluetooth_name">蓝牙名称</string>
+    <string name="bluetooth_pass">蓝牙密码</string>
+    <string name="bluetooth_date">设备的日期</string>
+    <string name="device_connect_success">设备连接成功</string>
+    <string name="device_connect_fail">设备连接失败</string>
+    <string name="sync_time_sucess">同步时间成功</string>
+    <string name="sync_time_fail">同步时间失败</string>
+    <string name="pick_record_success">提取记录成功</string>
+    <string name="pick_record_fail">提取记录失败</string>
+    <string name="export_data_success">导出数据成功</string>
+    <string name="export_data_fail">导出数据失败</string>
+    <string name="get_device_info_fail">获取信息失败</string>
+    <string name="tip">提示</string>
+    <string name="question_exit">您确定要退出程序?</string>
+    <string name="search_bluetooth">蓝牙搜索</string>
+
+</resources>

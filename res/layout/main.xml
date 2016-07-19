@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/tab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView 
+            android:id="@+id/device_manager"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textSize="19dp"
+            android:gravity="center_horizontal"
+            android:textColor="#ff0000"
+            android:text="@string/deivece_manager" />
+
+        <TextView 
+            android:id="@+id/tag_read"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="19dp"
+            android:textColor="#00ff00"
+            android:gravity="center_horizontal"
+            android:text="@string/tag_read" />
+
+        <TextView 
+            android:id="@+id/data_select"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textSize="19dp"
+            android:textColor="#0000ff"
+            android:gravity="center_horizontal"
+            android:text="@string/data_select" />
+    </LinearLayout>
+        
+    <LinearLayout
+        android:layout_marginTop="0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include layout="@layout/layout_1" />
+
+        <include layout="@layout/layout_2" />
+
+        <include layout="@layout/layout_3" />
+    </LinearLayout>
+
+</LinearLayout>
